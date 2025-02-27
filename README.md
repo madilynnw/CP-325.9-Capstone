@@ -1,45 +1,84 @@
-# Music Generator/ THEY NOT LIKE US
+Music Generator Backend
 
-### HAPPY BLACK HISTORY MONTH MUSIC THAT REPRESENTS THE CULTURE
-<img src="path to your app screenshot" alt="Description of Screenshot"/>
+Backend for "They Not Like Us" Music Generator
 
-<img src="path to your gif/video" style="width:100vw; height:100vh" alt="Text describing your video"/>
+Description
 
-## Description
-Generates a playlist based on a list of emotions and its create a playlist based on our culture
-Ex: Connect Four: a two player connection game. First player to get four of the same colored checkers in a row either horizontally, vertically or diagonally wins.
+This backend serves as the API for the "They Not Like Us" music generator, allowing users to generate playlists based on emotions. The backend handles CRUD operations for music suggestions and connects to a database to store and retrieve data.
 
-## Table of Contents
-* [Technologies Used](#technologiesused)
-* [Features](#features)
-* [Design](#design)
-* [Project Next Steps](#nextsteps)
-* [Deployed App](#deployment)
-* [About the Author](#author)
+Table of Contents
 
-## <a name="technologiesused"></a>Technologies Used
-* MongoDB
-* Express
-* React
-* Nodejs
-* JavaScript
-* CSS3
+Technologies Used
 
+API Endpoints
 
-## Features
-[Users are able to...]
-Emotions: Happy, Sad, Anger, Scared, Fear, Lonely, Excitement, Loved
-Colors Can Change A Mood
+Setup and Installation
 
-#### List of Future Features
-* Select an emotion
-* Add added a 2min timer 
-* Users can change the theme.
+Environment Variables
 
-* You can view the repository:
-[Github.com](https://github.com/Gr8ness21/Connect-4)
-* If unable to view please go live locally through VS Code
+Project Next Steps
 
-## <a name="author"></a>About The Author
-I like to code because it turns my ideas into reality, solving problems with creativity and logic. 
-[Developer LinkedIn](https://linkedin.com/whittl-emadilynn)
+About the Author
+
+Technologies Used
+
+Node.js
+
+Express.js
+
+MongoDB
+
+Mongoose
+
+Cors
+
+Dotenv
+
+Axios
+
+API Endpoints
+
+Music Suggestions
+
+GET /api/music - Retrieve all music suggestions
+
+POST /api/music - Add a new music suggestion
+
+DELETE /api/music/:emotion - Delete a music suggestion based on emotion
+
+Setup and Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/music-generator-backend.git
+
+Navigate to the backend directory:
+
+cd music-generator-backend
+
+Install dependencies:
+
+npm install
+
+Start the server:
+
+npm start
+
+Environment Variables
+
+Create a .env file in the root directory and add the following:
+
+PORT=3000
+MONGO_URI=mongodb://localhost:27017/
+
+Project Next Steps
+
+Implement authentication for users
+
+Add additional playlist filtering options
+
+Improve database schema for scalability
+
+About The Author
+
+I enjoy backend development because it powers applications and ensures smooth functionality. ([linkedin](https://www.linkedin.com/in/whittle-madilynn/)
